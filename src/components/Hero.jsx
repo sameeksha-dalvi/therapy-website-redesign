@@ -15,8 +15,8 @@ const Hero = () => {
                 <div className="flex flex-col justify-between px-[45px] w-[47%]">
                     <p className="text-[15px] tracking-[1.8px] font-normal leading-[27px] mb-[80px]">ONLINE & IN-PERSON COUNSELING IN NEWBURY PARK & ACROSS CA</p>
                     <div>
-                        <h1 className="font-heading text-[50px] font-[100] tracking-[-0.359414px] leading-[70px]">
-                            Rebuild your foundation on solid ground and finally begin to <strong className="font-handwriting text-primary">thrive</strong>.
+                        <h1 className="font-heading text-[50px] font-[100] tracking-[-0.4px] leading-[70px]">
+                            Rebuild your foundation on solid ground and finally begin to <strong className="font-handwriting text-primary text-[80px]">thrive</strong>.
                         </h1>
                         <p className="text-[14px] leading-[30px] mt-[20px]">Specialized therapy for adults, couples, teens, and children to reflect, heal, and grow.</p>
                     </div>
