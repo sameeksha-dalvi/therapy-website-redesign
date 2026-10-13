@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import CallToAction from "@/components/CallToAction";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
@@ -11,6 +12,7 @@ export default function Home() {
   <Hero/>
   <About/>
   <CallToAction/>
+  <Footer/>
   </>
   
   );
