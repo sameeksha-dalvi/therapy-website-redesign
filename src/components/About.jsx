@@ -45,9 +45,9 @@ const About = () => {
                 </div>
                 <div className="flex justify-between my-20 px-40">
 
-                    <h1 className="text-[35px] font-heading max-w-[280px]">Our areas of <span className="font-handwriting text-primary text-[60px]">expertise</span></h1>
+                    <h1 className="text-[35px] font-heading max-w-[280px] leading-[40px]">Our areas of <span className="font-handwriting text-primary text-[60px]">expertise</span></h1>
                     <div className="">
-                        <ul className="uppercase tracking-[1.8px] text-[14px] w-[340px]">
+                        <ul className="uppercase tracking-[1.8px] text-[15px] w-[340px]">
                             <li className="border-b border-black/20 pb-7 mb-7"><a href="">Dissociation</a></li>
                             <li className="border-b border-black/20 pb-7 mb-7"><a href="">Trauma</a></li>
                             <li className="border-b border-black/20 pb-7 mb-7"><a href="">Family conflict</a></li>
@@ -57,7 +57,7 @@ const About = () => {
                         </ul>
                     </div>
                     <div>
-                        <ul className="uppercase tracking-[1.8px] text-[14px] w-[340px]">
+                        <ul className="uppercase tracking-[1.8px] text-[15px] w-[340px]">
                             <li className="border-b border-black/20 pb-7 mb-7"><a href="">Anxiety</a></li>
                             <li className="border-b border-black/20 pb-7 mb-7"><a href="">Relationships</a></li>
                             <li className="border-b border-black/20 pb-7 mb-7"><a href="">children</a></li>
@@ -73,10 +73,10 @@ const About = () => {
                         <h1 className="font-heading text-[35px] mb-10">We’re here to make a difference.</h1>
                         <div className="flex gap-10">
                             <div className="flex-1 min-w-0">
-                                <h2 className="text-[14px] mb-2 tracking-[1.5px] font-normal leading-[25px] uppercase">The clients we work with are balancing so many things at once, it’s often hard for them to put themselves first.</h2>
-                                <p className="text-[14px] font-light leading-[27px]">Here, your needs are always top priority. Our team takes the time to deeply listen to our clients in order to truly understand their story and their struggles. We recognize that no two people are the same and that personalized therapy means an intentional, tailored approach. (You won’t find anything “one-size-fits-all” here.) If you’re ready to do the work, we’re ready to help.</p>
+                                <h2 className="text-[15px] mb-2 tracking-[1.5px] font-normal leading-[25px] uppercase">The clients we work with are balancing so many things at once, it’s often hard for them to put themselves first.</h2>
+                                <p className="text-[15px] font-light leading-[27px]">Here, your needs are always top priority. Our team takes the time to deeply listen to our clients in order to truly understand their story and their struggles. We recognize that no two people are the same and that personalized therapy means an intentional, tailored approach. (You won’t find anything “one-size-fits-all” here.) If you’re ready to do the work, we’re ready to help.</p>
                             </div>
-                            <p className="flex-1 min-w-0 text-[14px] leading-[27px] font-light">Sometimes we may gently challenge you to look at things differently and other times we may explore your emotions, all while encouraging you to practice what you’ve learned in your daily life. We take what we do seriously because we know how important it is for you to heal from what’s hurting you, discover a fulfilling life, and build meaningful relationships. Our goal is to walk alongside you in this journey, offering support and guidance as you uncover your strengths and embrace what the future can hold for you.</p>
+                            <p className="flex-1 min-w-0 text-[15px] leading-[27px] font-light">Sometimes we may gently challenge you to look at things differently and other times we may explore your emotions, all while encouraging you to practice what you’ve learned in your daily life. We take what we do seriously because we know how important it is for you to heal from what’s hurting you, discover a fulfilling life, and build meaningful relationships. Our goal is to walk alongside you in this journey, offering support and guidance as you uncover your strengths and embrace what the future can hold for you.</p>
                         </div>
                         <div><a href="" className="mt-15 relative inline-block text-[12px] uppercase
                         after:absolute after:bottom-0 after:left-0
@@ -106,11 +106,11 @@ const About = () => {
                     </div>
                 </div>
                 <div className="flex justify-between pl-25 pr-15 mt-50 gap-15 mb-20">
-                    <h1 className="text-[35px] font-heading leading-[50px] mr-30">Our<span className="font-handwriting text-primary text-[55px]"> specialties </span>include…</h1>
+                    <h1 className="text-[35px] font-heading leading-[40px] mr-30">Our<span className="font-handwriting text-primary text-[55px]"> specialties </span>include…</h1>
                     <div className="flex flex-col gap-25">
                         <div className="flex flex-col gap-5">
                             <h2 className="font-heading text-[22px]">Trauma</h2>
-                            <p className="flex-1 min-w-0 text-[14px] leading-[27px] font-light">We don’t always know when and how we’ve experienced trauma. In therapy, we’ll work together to help you process your past, understand what’s causing you to stay “stuck,” and regain a sense of safety, control, and hope. You don’t have to carry your burdens alone.</p>
+                            <p className="text-[15px] leading-[27px] font-light">We don’t always know when and how we’ve experienced trauma. In therapy, we’ll work together to help you process your past, understand what’s causing you to stay “stuck,” and regain a sense of safety, control, and hope. You don’t have to carry your burdens alone.</p>
                             <div>
                                 <a href="" className="relative inline-block text-[12px] uppercase
                         after:absolute after:bottom-0 after:left-0
@@ -122,7 +122,7 @@ const About = () => {
                         </div>
                         <div className="flex flex-col gap-5">
                             <h2 className="font-heading text-[22px]">Dissociation</h2>
-                            <p className="flex-1 min-w-0 text-[14px] leading-[27px] font-light">We don’t always know when and how we’ve experienced trauma. In therapy, we’ll work together to help you process your past, understand what’s causing you to stay “stuck,” and regain a sense of safety, control, and hope. You don’t have to carry your burdens alone.</p>
+                            <p className="text-[15px] leading-[27px] font-light">We don’t always know when and how we’ve experienced trauma. In therapy, we’ll work together to help you process your past, understand what’s causing you to stay “stuck,” and regain a sense of safety, control, and hope. You don’t have to carry your burdens alone.</p>
                             <div>
                                 <a href="" className="relative inline-block text-[12px] uppercase
                         after:absolute after:bottom-0 after:left-0
@@ -136,7 +136,7 @@ const About = () => {
                     <div className="flex flex-col gap-25">
                         <div className="flex flex-col gap-5">
                             <h2 className="font-heading text-[22px]">EMDR</h2>
-                            <p className="flex-1 min-w-0 text-[14px] leading-[27px] font-light">
+                            <p className="text-[15px] leading-[27px] font-light">
                                 Eye Movement Desensitization and Reprocessing (EMDR) is a powerful therapeutic technique that helps process and heal trauma by reworking how painful memories are stored in your brain. This allows you to find relief and move toward lasting healing.
                             </p>
                             <div>
@@ -150,7 +150,7 @@ const About = () => {
                         </div>
                         <div className="flex flex-col gap-5">
                             <h2 className="font-heading text-[22px]">Special Needs Parenting</h2>
-                            <p className="flex-1 min-w-0 text-[14px] leading-[27px] font-light">
+                            <p className="text-[15px] leading-[27px] font-light">
                                 Parenting a child with special needs presents unique challenges and complex emotions. We provide compassionate support through lived experience and expertise to help you navigate this journey with tools, understanding, and self-care.
                             </p>
                             <div>
