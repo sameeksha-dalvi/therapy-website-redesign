@@ -4,14 +4,14 @@ const Footer = () => {
     return (
         <>
             <div>
-                <div className="flex justify-between gap-10 bg-background-white p-20 pb-40">
-                    <div className="w-[30%]">
-                        <Image src="/images/Logo.png" alt="logo" width="100" height="100" className="w-[350px] h-auto" />
-                        <p className="text-[14px] text-text-secondary mt-5 ml-5 leading-[25px]">
+                <div className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-10 bg-background-white p-12 md:p-10 lg:p-20 pb-20 lg:pb-40">
+                    <div className="w-full lg:w-[30%]">
+                        <Image src="/images/Logo.png" alt="logo" width="100" height="100" className="w-full lg:w-[25%] text-[14px]" />
+                        <p className="text-[14px] text-text-secondary mt-5 leading-[25px] lg:ml-5">
                             We want to make getting started simple. You’re welcome to come into our office in Newbury Park or schedule virtual appointments from anywhere in CA—whatever works best for you.
                         </p>
                     </div>
-                    <div className="text-[14px] ml-5">
+                    <div className="text-[14px] pl-5 lg:ml-5 lg:pl-0">
                         <h2 className="uppercase tracking-[1.5px] mb-5">Navigate</h2>
                         <ul className="text-text-secondary">
                             <li><a href="">Home</a></li>
@@ -20,7 +20,7 @@ const Footer = () => {
                             <li><a href="">Contact</a></li>
                         </ul>
                     </div>
-                    <div className="text-[14px]">
+                    <div className="text-[14px] pl-5 lg:pl-0">
                         <h2 className="uppercase tracking-[1.5px] mb-5">Our Team</h2>
                         <ul className="text-text-secondary">
                             <li><a href="">Jennifer Anderson</a></li>
@@ -34,7 +34,7 @@ const Footer = () => {
                             <li><a href="">Jessica Jauregui</a></li>
                         </ul>
                     </div>
-                    <div className="w-[25%] text-[14px]">
+                    <div className="w-full lg:w-[25%] text-[14px] pl-5 lg:pl-0">
                         <h2 className="uppercase tracking-[1.5px] mb-5">Contact</h2>
                         <p className="text-text-secondary">
                             925 Broadbeck Dr<br></br>
@@ -48,8 +48,8 @@ const Footer = () => {
                         </p>
                     </div>
                 </div>
-                <div className="bg-primary text-background-white py-2 text-sm pl-20">
-                    <ul className="flex gap-5">
+                <div className="bg-primary text-background-white py-2 px-5 lg:px-20 text-sm">
+                    <ul className="flex flex-row flex-wrap gap-x-5 gap-y-1">
                         <li><a href="">Terms</a></li>
                         <li><a href="">Privacy Policy</a></li>
                         <li><a href="">Disclaimer</a></li>
