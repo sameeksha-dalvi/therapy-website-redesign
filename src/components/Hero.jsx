@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
     return (
         <>
-            <div className="grid grid-cols-[67%_35%] lg:grid-cols-[38%_55%_15%] gap-x-4 lg:gap-x-0 gap-y-8 font-body mt-8">
+            <div className="grid grid-cols-[minmax(0,65fr)_minmax(0,35fr)] lg:grid-cols-[38%_52%_10%] gap-x-4 lg:gap-x-0 gap-y-8 font-body mt-8">
 
                 <div className="order-2 lg:order-1 w-full self-end">
                     <Image
@@ -99,6 +99,7 @@ const Hero = () => {
                 </div>
 
             </div>
+
         </>
 
     )

@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 :root {
   /* Text colors */
   --text-primary: #2b2b2b;
@@ -47,6 +48,10 @@
   --font-handwriting: var(--font-caveat);
   --font-heading: var(--font-beaufort);
 }
+
+/* * {
+  outline: 1px solid red;
+} */
 
 
 body {
