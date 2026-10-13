@@ -6,7 +6,7 @@ const Footer = () => {
             <div>
                 <div className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-10 bg-background-white p-12 md:p-10 lg:p-20 pb-20 lg:pb-40">
                     <div className="w-full lg:w-[30%]">
-                        <Image src="/images/Logo.png" alt="logo" width="100" height="100" className="w-full lg:w-[25%] text-[14px]" />
+                        <Image src="/images/Logo.png" alt="logo" width="100" height="100" className="w-full lg:w-[350px] text-[14px]" />
                         <p className="text-[14px] text-text-secondary mt-5 leading-[25px] lg:ml-5">
                             We want to make getting started simple. You’re welcome to come into our office in Newbury Park or schedule virtual appointments from anywhere in CA—whatever works best for you.
                         </p>
