@@ -1,37 +1,91 @@
+"use client";
+
+import { useState } from "react";
 
 import Image from "next/image";
 
 const Navbar = () => {
-  return (
-    <nav className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 p-4">
 
-      {/* Logo */}
-      <div className="shrink-0">
-        <Image
-          src="/images/Logo.png"
-          alt="logo"
-          width={250}
-          height={100}
-          className="w-[180px] sm:w-[200px] lg:w-[250px] h-auto"
-        />
+     const [isOpen, setIsOpen] = useState(false);
+
+     const links = ["About", "Our Team", "Specialties", "Methods", "FAQs"];
+  return (
+    <nav className="relative p-4 lg:flex lg:items-center lg:justify-between">
+
+      <div className="flex items-center justify-between">
+        <div className="shrink-0">
+          <Image
+            src="/images/Logo.png"
+            alt="logo"
+            width={250}
+            height={100}
+            className="w-[180px] sm:w-[200px] lg:w-[250px] h-auto"
+          />
+        </div>
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="lg:hidden flex flex-col gap-1.5 p-2"
+        >
+          <span
+            className={`block w-6 h-0.5 bg-black transition-transform ${
+              isOpen ? "translate-y-2 rotate-45" : ""
+            }`}
+          />
+          <span
+            className={`block w-6 h-0.5 bg-black transition-opacity ${
+              isOpen ? "opacity-0" : ""
+            }`}
+          />
+          <span
+            className={`block w-6 h-0.5 bg-black transition-transform ${
+              isOpen ? "-translate-y-2 -rotate-45" : ""
+            }`}
+          />
+        </button>
       </div>
 
-      {/* Navigation */}
-      <div className="flex flex-wrap items-center gap-4 lg:gap-7 uppercase text-text-primary text-[11px] lg:text-[12px] tracking-[1px] lg:tracking-[1.35px]">
-
-        <ul className="flex flex-wrap items-center gap-x-4 lg:gap-7 gap-y-3">
-          <li>About</li>
-          <li>Our Team</li>
-          <li>Specialties</li>
-          <li>Methods</li>
-          <li>FAQs</li>
+      <div className="hidden lg:flex items-center gap-7 uppercase text-text-primary text-[12px] tracking-[1.35px]">
+        <ul className="flex items-center gap-7">
+          {links.map((link) => (
+            <li key={link}>
+              <a href="#" className="">
+                {link}
+              </a>
+            </li>
+          ))}
         </ul>
 
-        <button className="shrink-0 uppercase rounded-full border px-4 lg:px-6 py-3 hover:bg-background-dark hover:text-background">
+        <button className="uppercase rounded-full border px-6 py-3 hover:bg-background-dark hover:text-background">
           Contact
         </button>
-
       </div>
+
+      {isOpen && (
+        <div className="absolute top-full left-0 z-50 w-full bg-background shadow-md lg:hidden">
+          <ul className="flex flex-col items-center gap-6 py-6 uppercase text-text-primary text-[12px] tracking-[1.35px]">
+            {links.map((link) => (
+              <li key={link}>
+                <a
+                  href="#"
+                  onClick={() => setIsOpen(false)}
+                  className=""
+                >
+                  {link}
+                </a>
+              </li>
+            ))}
+            <li>
+              <button
+                onClick={() => setIsOpen(false)}
+                className="uppercase rounded-full border px-6 py-3 hover:bg-background-dark hover:text-background"
+              >
+                Contact
+              </button>
+            </li>
+          </ul>
+        </div>
+      )}
+
     </nav>
   );
 };
