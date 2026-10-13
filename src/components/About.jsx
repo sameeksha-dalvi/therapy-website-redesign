@@ -93,53 +93,73 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="flex my-25 items-end justify-start">
-                    <div>
+                <div className="flex my-25 items-end justify-between gap-15">
+                    <div className="w-[100%] opacity-90">
                         <Image src="/images/about-6.png" alt="family"
                             width={500}
                             height={600}
-                            className="w-full h-auto" />
+                            className="w-full aspect-[4/3] object-cover" />
                     </div>
 
                     <div>
-                        <h1>Honoring where you’ve been & helping shape where you’re headed. </h1>
+                        <h1 className="text-[35px] w-[80%] leading-[60px]">Honoring where you’ve been <span className="font-handwriting text-primary text-[60px]">& </span> helping shape where you’re headed. </h1>
                     </div>
                 </div>
-                <div className="flex justify-between my-20 px-40">
-                    <h1 className="text-[35px] font-heading max-w-[280px]">Our <span className="font-handwriting text-primary text-[60px]">specialties</span> include…</h1>
-                    <div>
-                        <div>
-                            <h2>Trauma</h2>
-                            <p>We don’t always know when and how we’ve experienced trauma. In therapy, we’ll work together to help you process your past, understand what’s causing you to stay “stuck,” and regain a sense of safety, control, and hope. You don’t have to carry your burdens alone.</p>
+                <div className="flex justify-between pl-25 pr-15 mt-50 gap-15 mb-20">
+                    <h1 className="text-[35px] font-heading leading-[50px] mr-30">Our<span className="font-handwriting text-primary text-[55px]"> specialties </span>include…</h1>
+                    <div className="flex flex-col gap-25">
+                        <div className="flex flex-col gap-5">
+                            <h2 className="font-heading text-[22px]">Trauma</h2>
+                            <p className="flex-1 min-w-0 text-[14px] leading-[27px] font-light">We don’t always know when and how we’ve experienced trauma. In therapy, we’ll work together to help you process your past, understand what’s causing you to stay “stuck,” and regain a sense of safety, control, and hope. You don’t have to carry your burdens alone.</p>
                             <div>
-                                <a href="">Learn more</a>
+                                <a href="" className="relative inline-block text-[12px] uppercase
+                        after:absolute after:bottom-0 after:left-0
+                        after:h-[0.5px] after:w-full after:bg-current
+                        after:origin-left after:scale-x-100
+                        after:transition-transform after:duration-800
+                        hover:after:scale-x-0">Learn more</a>
                             </div>
                         </div>
-                        <div>
-                            <h2>Dissociation</h2>
-                            <p>We don’t always know when and how we’ve experienced trauma. In therapy, we’ll work together to help you process your past, understand what’s causing you to stay “stuck,” and regain a sense of safety, control, and hope. You don’t have to carry your burdens alone.</p>
+                        <div className="flex flex-col gap-5">
+                            <h2 className="font-heading text-[22px]">Dissociation</h2>
+                            <p className="flex-1 min-w-0 text-[14px] leading-[27px] font-light">We don’t always know when and how we’ve experienced trauma. In therapy, we’ll work together to help you process your past, understand what’s causing you to stay “stuck,” and regain a sense of safety, control, and hope. You don’t have to carry your burdens alone.</p>
                             <div>
-                                <a href="">Learn more</a>
+                                <a href="" className="relative inline-block text-[12px] uppercase
+                        after:absolute after:bottom-0 after:left-0
+                        after:h-[0.5px] after:w-full after:bg-current
+                        after:origin-left after:scale-x-100
+                        after:transition-transform after:duration-800
+                        hover:after:scale-x-0">Learn more</a>
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <h2>EMDR</h2>
-                            <p>
+                    <div className="flex flex-col gap-25">
+                        <div className="flex flex-col gap-5">
+                            <h2 className="font-heading text-[22px]">EMDR</h2>
+                            <p className="flex-1 min-w-0 text-[14px] leading-[27px] font-light">
                                 Eye Movement Desensitization and Reprocessing (EMDR) is a powerful therapeutic technique that helps process and heal trauma by reworking how painful memories are stored in your brain. This allows you to find relief and move toward lasting healing.
                             </p>
                             <div>
-                                <a href="">Learn more</a>
+                                <a href="" className="relative inline-block text-[12px] uppercase
+                        after:absolute after:bottom-0 after:left-0
+                        after:h-[0.5px] after:w-full after:bg-current
+                        after:origin-left after:scale-x-100
+                        after:transition-transform after:duration-800
+                        hover:after:scale-x-0">Learn more</a>
                             </div>
                         </div>
-                        <div>
-                            <h2>Special Needs Parenting</h2>
-                            <p>
+                        <div className="flex flex-col gap-5">
+                            <h2 className="font-heading text-[22px]">Special Needs Parenting</h2>
+                            <p className="flex-1 min-w-0 text-[14px] leading-[27px] font-light">
                                 Parenting a child with special needs presents unique challenges and complex emotions. We provide compassionate support through lived experience and expertise to help you navigate this journey with tools, understanding, and self-care.
                             </p>
                             <div>
-                                <a href="">Learn more</a>
+                                <a href="" className="relative inline-block text-[12px] uppercase
+                        after:absolute after:bottom-0 after:left-0
+                        after:h-[0.5px] after:w-full after:bg-current
+                        after:origin-left after:scale-x-100
+                        after:transition-transform after:duration-800
+                        hover:after:scale-x-0">Learn more</a>
                             </div>
                         </div>
                     </div>
