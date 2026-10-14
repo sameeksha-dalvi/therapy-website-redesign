@@ -7,7 +7,7 @@ const About = () => {
                 <h1 className="text-[30px] lg:text-[35px] font-heading mt-10 lg:mt-15 mb-5 px-6 lg:px-0 lg:ml-20">Who we <span className="font-handwriting text-primary text-[50px] lg:text-[60px]">help</span></h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 lg:px-12 mb-16 lg:mb-20 lg:ml-40">
                     <div>
-                        <Image src="/images/about-redesign-1.jpeg" alt="adults"
+                        <Image src="/images/about-redesign-1.jpeg" alt="A thoughtful adult in a calm, softly lit setting."
                             width={200}
                             height={300}
                             className="w-full aspect-[2/3] object-cover" />
@@ -16,7 +16,7 @@ const About = () => {
                     </div>
 
                     <div>
-                        <Image src="/images/about-redesign-2.jpeg" alt="couples"
+                        <Image src="/images/about-redesign-2.jpeg" alt="Two chairs facing each other"
                             width={200}
                             height={300}
                             className="w-full aspect-[2/3] object-cover"
@@ -25,7 +25,7 @@ const About = () => {
                         <p className="text-[15px] leading-[27px]">You don't have to make sense of everything alone. Explore the impact of past experiences in a supportive space, at your own pace.</p>
                     </div>
                     <div>
-                        <Image src="/images/about-redesign-3.jpeg" alt="children"
+                        <Image src="/images/about-redesign-3.jpeg" alt="An adult professional taking a quiet moment to pause."
                             width={200}
                             height={300}
                             className="w-full aspect-[2/3] object-cover"
@@ -35,7 +35,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="relative w-full">
-                    <Image src="/images/about-redesign-5.jpeg" alt="children running"
+                    <Image src="/images/about-redesign-5.jpeg" alt="an adult in a quiet moment of reflection"
                         width={200}
                         height={300}
                         className="w-full h-[350px] sm:h-[420px] lg:h-[500px] object-cover"
@@ -74,7 +74,7 @@ const About = () => {
                         <div className="w-full mb-8 lg:hidden">
                             <Image
                                 src="/images/about-redesign-4.jpeg"
-                                alt="happy girls"
+                                alt="two chairs in a welcoming therapy office"
                                 width={500}
                                 height={600}
                                 className="w-full aspect-[16/9] object-cover object-[center_60%] opacity-80"
@@ -95,7 +95,7 @@ const About = () => {
                         hover:after:scale-x-0">Meet Dr. Maya Reynolds</a></div>
                     </div>
                     <div className="hidden lg:block mt-30 w-[30%]">
-                        <Image src="/images/about-redesign-4.jpeg" alt="happy girls"
+                        <Image src="/images/about-redesign-4.jpeg" alt="two chairs in a welcoming therapy office"
                             width={500}
                             height={600}
                             className="w-full aspect-[2/3] object-cover opacity-80" />
@@ -105,7 +105,7 @@ const About = () => {
                     <div className="w-[calc(100%-1.5rem)] lg:w-[55%] opacity-90 self-end">
                         <Image
                             src="/images/about-redesign-6.jpeg"
-                            alt="family"
+                            alt="journal"
                             width={500}
                             height={600}
                             className="w-full aspect-[16/9] lg:aspect-[4/3] object-cover"

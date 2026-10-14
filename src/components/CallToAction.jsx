@@ -7,7 +7,7 @@ const CallToAction = () => {
             <div className="text-text-primary flex flex-col lg:flex-row items-center lg:items-stretch justify-between gap-10 lg:gap-20 py-12 md:px-10 lg:px-0 lg:py-25">
                 <div className="w-[45%] lg:w-[20%] flex items-end self-start lg:self-auto opacity-80">
                     <Image src="/images/cta-redesign-2.jpeg"
-                        alt="family therapy"
+                        alt="An adult reflecting quietly"
                         width={500}
                         height={600}
                         className="w-full aspect-[2.5/2] lg:aspect-[2/4] object-cover" />
@@ -25,7 +25,7 @@ const CallToAction = () => {
                 </div>
                 <div className="w-[80%] lg:w-[40%] self-end lg:self-auto opacity-85">
                     <Image src="/images/office1.jpeg"
-                        alt="family therapy"
+                        alt="A warm welcoming therapy room"
                         width={500}
                         height={600}
                         className="w-full aspect-[4/3] lg:aspect-[4/5] object-cover" />
