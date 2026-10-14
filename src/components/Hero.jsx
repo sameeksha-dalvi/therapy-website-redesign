@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
     return (
         <>
-            <div className="grid grid-cols-[minmax(0,65fr)_minmax(0,35fr)] lg:grid-cols-[38%_52%_10%] gap-x-4 lg:gap-x-0 gap-y-8 font-body mt-8">
+            <div className="grid grid-cols-[minmax(0,65fr)_minmax(0,35fr)] lg:grid-cols-[38%_52%_10%] gap-x-4 lg:gap-x-0 gap-y-8 font-body mt-8 text-text-primary">
 
                 <div className="order-2 lg:order-1 w-full self-end">
                     <Image
@@ -55,7 +55,7 @@ const Hero = () => {
             </div>
 
 
-            <div className="flex flex-col lg:flex-row justify-between items-center my-16 lg:my-35 px-6 lg:px-0 gap-8 lg:gap-0">
+            <div className="flex flex-col lg:flex-row justify-between items-center my-16 lg:my-35 px-6 lg:px-0 gap-8 lg:gap-0 text-text-primary">
 
                 <div className="w-full lg:w-[60%] lg:pl-20">
 
@@ -77,7 +77,7 @@ const Hero = () => {
                         <div className="w-full lg:hidden">
                             <Image
                                 src="/images/hero-dr.png"
-                                alt="Dr. Maya Reynold Photo"
+                                alt="Dr. Maya Reynolds"
                                 width={500}
                                 height={600}
                                 className="w-full aspect-[16/9] object-cover  object-[center_25%]"
@@ -92,7 +92,7 @@ const Hero = () => {
                 <div className="hidden lg:block w-[30%]">
                     <Image
                         src="/images/hero-dr.png"
-                        alt="Dr. Maya Reynold Photo"
+                        alt="Dr. Maya Reynolds"
                         width={500}
                         height={600}
                         className="w-full h-auto"

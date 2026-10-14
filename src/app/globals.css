@@ -28,25 +28,22 @@
 
 
 :root {
-  /* Text colors */
-  --text-primary: #654A46;
+  
+  --text-primary: #3a1f1f;
   --text-secondary: #80645E;
-  --text-light: #FFFFFF;
+  --text-light: #5e5a5a;
 
-  /* Brand colors */
   --primary: #da5b47;
   --secondary: #654A46;
   --accent: #A66D5C;
 
-  /* Background colors */
   --background: #FBF6F1;
   --background-white: #FFFFFF;
   --background-dark: #654A46;
 
-  /* Border colors */
+
   --border: #D8BDB4;
 
-  /* Transparent colors */
   --white-10: #FFFFFF1A;
   --white-12: #FFFFFF1F;
   --white-9: #FFFFFF17;

@@ -8,7 +8,7 @@ const Navbar = () => {
 
      const [isOpen, setIsOpen] = useState(false);
 
-     const links = ["About", "Our Team", "Specialties", "Methods", "FAQs"];
+     const links = ["About", "Specialties", "Methods", "FAQs"];
   return (
     <nav className="relative p-4 lg:flex lg:items-center lg:justify-between">
 

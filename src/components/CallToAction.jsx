@@ -4,7 +4,7 @@ const CallToAction = () => {
 
     return (
         <>
-            <div className="text-secondary flex flex-col lg:flex-row items-center lg:items-stretch justify-between gap-10 lg:gap-20 py-12 md:px-10 lg:px-0 lg:py-25">
+            <div className="text-text-primary flex flex-col lg:flex-row items-center lg:items-stretch justify-between gap-10 lg:gap-20 py-12 md:px-10 lg:px-0 lg:py-25">
                 <div className="w-[45%] lg:w-[20%] flex items-end self-start lg:self-auto opacity-80">
                     <Image src="/images/cta-redesign-2.jpeg"
                         alt="family therapy"
