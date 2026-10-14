@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         <div className="shrink-0">
           <Image
-            src="/images/Logo.png"
+            src="/images/logo-redesign.png"
             alt="logo"
             width={250}
             height={100}

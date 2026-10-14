@@ -7,62 +7,62 @@ const About = () => {
                 <h1 className="text-[30px] lg:text-[35px] font-heading mt-10 lg:mt-15 mb-5 px-6 lg:px-0 lg:ml-20">Who we <span className="font-handwriting text-primary text-[50px] lg:text-[60px]">help</span></h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 lg:px-12 mb-16 lg:mb-20 lg:ml-40">
                     <div>
-                        <Image src="/images/about-1.png" alt="adults"
+                        <Image src="/images/about-redesign-1.jpeg" alt="adults"
                             width={200}
                             height={300}
                             className="w-full aspect-[2/3] object-cover" />
-                        <h2 className="text-[22px] font-heading mt-6 lg:mt-10 mb-4 lg:mb-5">Adults</h2>
-                        <p className="text-[15px] leading-[27px]">Feeling stuck or overwhelmed? We help adults find clarity, build resilience, and move forward with confidence by addressing the root causes of anxiety, stress, and emotional pain.</p>
+                        <h2 className="text-[22px] font-heading mt-6 lg:mt-10 mb-4 lg:mb-5">Anxiety & Stress</h2>
+                        <p className="text-[15px] leading-[27px]">For the overthinking, tension, and endless what-ifs that make it difficult to feel present. Find tools to navigate uncertainty and feel more grounded.</p>
                     </div>
 
                     <div>
-                        <Image src="/images/about-2.png" alt="couples"
+                        <Image src="/images/about-redesign-2.jpeg" alt="couples"
                             width={200}
                             height={300}
                             className="w-full aspect-[2/3] object-cover"
                         />
-                        <h2 className="text-[22px] font-heading mt-6 lg:mt-10 mb-4 lg:mb-5">Couples</h2>
-                        <p className="text-[15px] leading-[27px]">Relationships require effort, and we’re here to help you strengthen yours. We guide couples through challenges like communication breakdowns and trust issues, helping you rebuild intimacy and strengthen your relationship.</p>
+                        <h2 className="text-[22px] font-heading mt-6 lg:mt-10 mb-4 lg:mb-5">Trauma & Healing</h2>
+                        <p className="text-[15px] leading-[27px]">You don't have to make sense of everything alone. Explore the impact of past experiences in a supportive space, at your own pace.</p>
                     </div>
                     <div>
-                        <Image src="/images/about-3.png" alt="children"
+                        <Image src="/images/about-redesign-3.jpeg" alt="children"
                             width={200}
                             height={300}
                             className="w-full aspect-[2/3] object-cover"
                         />
-                        <h2 className="text-[22px] font-heading mt-6 lg:mt-10 mb-4 lg:mb-5">Children & Teens</h2>
-                        <p className="text-[15px] leading-[27px]">Kids need support, too. We help them process big emotions, cope with challenging family situations, build coping skills, and feel understood, while also working closely with their parents to create a nurturing environment.</p>
+                        <h2 className="text-[22px] font-heading mt-6 lg:mt-10 mb-4 lg:mb-5">Burnout & Perfectionism</h2>
+                        <p className="text-[15px] leading-[27px]">You deserve more than a life built around constant pressure. Learn to soften expectations, make room for rest, and reconnect with what matters to you.</p>
                     </div>
                 </div>
                 <div className="relative w-full">
-                    <Image src="/images/about-4.png" alt="children running"
+                    <Image src="/images/about-redesign-5.jpeg" alt="children running"
                         width={200}
                         height={300}
                         className="w-full h-[350px] sm:h-[420px] lg:h-[500px] object-cover"
                     />
                     <div className="absolute inset-0 bg-black/35" />
-                    <h1 className="absolute top-1/2 -translate-y-1/2 lg:top-auto lg:translate-y-0 bottom-auto lg:bottom-10 left-1/2 -translate-x-1/2 lg:left-8 lg:translate-x-0 w-[85%] lg:w-[65%] text-center lg:text-left text-white font-heading text-[25px] sm:text-[30px] lg:text-[37px] leading-[1.3] pl-0 lg:pl-20 pb-0 lg:pb-10">You deserve a place where your story is heard, valued, and understood.<span className="italic font-serif"> Nothing will be too heavy for us to carry together.</span></h1>
+                    <h1 className="absolute top-1/2 -translate-y-1/2 lg:top-auto lg:translate-y-0 bottom-auto lg:bottom-10 left-1/2 -translate-x-1/2 lg:left-8 lg:translate-x-0 w-[85%] lg:w-[65%] text-center lg:text-left text-white font-heading text-[25px] sm:text-[30px] lg:text-[37px] leading-[1.3] pl-0 lg:pl-20 pb-0 lg:pb-10">You can be doing your best and still feel overwhelmed.<span className="italic font-serif"> We'll take things one step at a time.</span></h1>
                 </div>
                 <div className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-10 my-16 lg:my-20 px-6 lg:px-40">
 
                     <h1 className="text-[28px] lg:text-[35px] font-heading leading-[40px] lg:max-w-[280px] shrink-0">Our areas of <span className="font-handwriting text-primary text-[50px] lg:text-[60px]">expertise</span></h1>
                     <div className="w-full lg:w-[340px]">
                         <ul className="uppercase tracking-[1.8px] text-[13px] lg:text-[15px] w-full">
-                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Dissociation</a></li>
-                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Trauma</a></li>
-                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Family conflict</a></li>
-                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Special needs parenting</a></li>
-                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Depression</a></li>
-                            <li className="border-b border-black/20 pb-7 mb-0 lg:border-b-0 lg:pb-5 lg:mb-5"><a href="">marriage</a></li>
+                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Anxiety</a></li>
+                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Panic</a></li>
+                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Chronic Stress</a></li>
+                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Childhood Experiences</a></li>
+                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Emotional Regulation</a></li>
+                            <li className="border-b border-black/20 pb-7 mb-0 lg:border-b-0 lg:pb-5 lg:mb-5"><a href="">Coping Strategies</a></li>
                         </ul>
                     </div>
                     <div className="w-full lg:w-[340px]">
                         <ul className="uppercase tracking-[1.8px] text-[13px] lg:text-[15px] w-full">
-                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Anxiety</a></li>
-                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Relationships</a></li>
-                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">children</a></li>
-                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">teens</a></li>
-                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">intimacy & connection</a></li>
+                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Trauma</a></li>
+                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Complex Trauma</a></li>
+                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Burnout</a></li>
+                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Perfectionism</a></li>
+                            <li className="border-b border-black/20 pb-7 mb-7"><a href="">Mindfulness</a></li>
                             <li className="pb-5 mb-5"><a href="">…and more.</a></li>
                         </ul>
                     </div>
@@ -70,22 +70,22 @@ const About = () => {
                 <div className="bg-[var(--beige-50)] flex flex-col lg:flex-row gap-8 lg:gap-20 pl-6 lg:pl-20 pr-6 lg:pr-0">
                     <div className="w-full lg:w-[70%] my-10 lg:my-30">
                         <h2 className="mb-10 lg:mb-30 uppercase text-[15px]">How we work</h2>
-                        <h1 className="font-heading text-[30px] lg:text-[35px] mb-8 lg:mb-10">We’re here to make a difference.</h1>
+                        <h1 className="font-heading text-[30px] lg:text-[35px] mb-8 lg:mb-10">Therapy that meets you where you are.</h1>
                         <div className="w-full mb-8 lg:hidden">
                             <Image
-                                src="/images/about-5.png"
+                                src="/images/about-redesign-4.jpeg"
                                 alt="happy girls"
                                 width={500}
                                 height={600}
-                                className="w-full aspect-[16/9] object-cover object-[center_40%]"
+                                className="w-full aspect-[16/9] object-cover object-[center_60%]"
                             />
                         </div>
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-10">
                             <div className="flex-1 min-w-0">
-                                <h2 className="text-[14px] lg:text-[15px] mb-2 tracking-[1.5px] font-normal leading-[25px] uppercase">The clients we work with are balancing so many things at once, it’s often hard for them to put themselves first.</h2>
-                                <p className="text-[14px] lg:text-[15px] font-light leading-[27px]">Here, your needs are always top priority. Our team takes the time to deeply listen to our clients in order to truly understand their story and their struggles. We recognize that no two people are the same and that personalized therapy means an intentional, tailored approach. (You won’t find anything “one-size-fits-all” here.) If you’re ready to do the work, we’re ready to help.</p>
+                                <h2 className="text-[14px] lg:text-[15px] mb-2 tracking-[1.5px] font-normal leading-[25px] uppercase">We begin by understanding your story, not by making assumptions about it.</h2>
+                                <p className="text-[14px] lg:text-[15px] font-light leading-[27px]">Therapy is a space where you can slow down, feel heard, and explore what's been weighing on you. Dr. Maya Reynolds takes a warm, collaborative approach, making room for your experiences, your questions, and the changes you hope to make. Together, you'll work toward understanding patterns that no longer serve you and finding ways to feel more grounded in daily life.</p>
                             </div>
-                            <p className="flex-1 min-w-0 text-[14px] lg:text-[15px] font-light leading-[27px]">Sometimes we may gently challenge you to look at things differently and other times we may explore your emotions, all while encouraging you to practice what you’ve learned in your daily life. We take what we do seriously because we know how important it is for you to heal from what’s hurting you, discover a fulfilling life, and build meaningful relationships. Our goal is to walk alongside you in this journey, offering support and guidance as you uncover your strengths and embrace what the future can hold for you.</p>
+                            <p className="flex-1 min-w-0 text-[14px] lg:text-[15px] font-light leading-[27px]">Healing isn't always a straight line. At times, that may mean exploring difficult experiences; at others, it may mean developing practical tools to navigate anxiety, regulate emotions, and manage stress. The work moves at a pace that respects your needs, with an emphasis on building safety, insight, and lasting resilience.</p>
                         </div>
                         <div><a href="" className="mt-15 relative inline-block text-[12px] uppercase
                         after:absolute after:bottom-0 after:left-0
@@ -95,16 +95,16 @@ const About = () => {
                         hover:after:scale-x-0">Learn more about us</a></div>
                     </div>
                     <div className="hidden lg:block mt-30 w-[30%]">
-                        <Image src="/images/about-5.png" alt="happy girls"
+                        <Image src="/images/about-redesign-4.jpeg" alt="happy girls"
                             width={500}
                             height={600}
-                            className="w-full h-auto" />
+                            className="w-full aspect-[2/3] object-cover" />
                     </div>
                 </div>
                 <div className="flex flex-col lg:flex-row my-16 lg:my-25 items-start lg:items-end justify-between gap-8 lg:gap-15">
                     <div className="w-[calc(100%-1.5rem)] lg:w-[55%] opacity-90 self-end">
                         <Image
-                            src="/images/about-6.png"
+                            src="/images/about-redesign-6.jpeg"
                             alt="family"
                             width={500}
                             height={600}
@@ -113,9 +113,9 @@ const About = () => {
                     </div>
                     <div className="w-full p-6 lg:px-0 lg:w-[40%]">
                         <h1 className="text-[28px] lg:text-[35px] leading-[1.4] lg:leading-[60px]">
-                            Honoring where you’ve been
+                            Making sense of your experiences
                             <span className="font-handwriting text-primary text-[35px] lg:text-[60px]"> &amp; </span>
-                            helping shape where you’re headed.
+                            reconnecting with yourself.
                         </h1>
                     </div>
 
@@ -124,8 +124,8 @@ const About = () => {
                     <h1 className="text-[28px] lg:text-[35px] font-heading leading-[1.3] lg:leading-[40px] lg:mr-10 lg:w-[25%]">Our<span className="font-handwriting text-primary text-[45px] lg:text-[55px]"> specialties </span>include…</h1>
                     <div className="flex flex-col gap-12 lg:gap-25 w-full lg:flex-1 min-w-0">
                         <div className="flex flex-col gap-4 lg:gap-5">
-                            <h2 className="font-heading text-[20px] lg:text-[22px]">Trauma</h2>
-                            <p className="text-[14px] lg:text-[15px] leading-[27px] font-light">We don’t always know when and how we’ve experienced trauma. In therapy, we’ll work together to help you process your past, understand what’s causing you to stay “stuck,” and regain a sense of safety, control, and hope. You don’t have to carry your burdens alone.</p>
+                            <h2 className="font-heading text-[20px] lg:text-[22px]">Trauma & Healing</h2>
+                            <p className="text-[14px] lg:text-[15px] leading-[27px] font-light">Explore how past experiences may still affect your sense of safety, relationships, and daily life. Therapy offers a supportive space to process these experiences at a pace that feels manageable.</p>
                             <div>
                                 <a href="" className="relative inline-block text-[12px] uppercase
                         after:absolute after:bottom-0 after:left-0
@@ -136,8 +136,8 @@ const About = () => {
                             </div>
                         </div>
                         <div className="flex flex-col gap-4 lg:gap-5">
-                            <h2 className="font-heading text-[20px] lg:text-[22px]">Dissociation</h2>
-                            <p className="text-[14px] lg:text-[15px] leading-[27px] font-light">We don’t always know when and how we’ve experienced trauma. In therapy, we’ll work together to help you process your past, understand what’s causing you to stay “stuck,” and regain a sense of safety, control, and hope. You don’t have to carry your burdens alone.</p>
+                            <h2 className="font-heading text-[20px] lg:text-[22px]">Anxiety & Panic</h2>
+                            <p className="text-[14px] lg:text-[15px] leading-[27px] font-light">When worry, racing thoughts, or physical tension make it difficult to feel at ease, therapy can help you understand your patterns and develop practical ways to navigate anxiety.</p>
                             <div>
                                 <a href="" className="relative inline-block text-[12px] uppercase
                         after:absolute after:bottom-0 after:left-0
@@ -152,7 +152,7 @@ const About = () => {
                         <div className="flex flex-col gap-4 lg:gap-5">
                             <h2 className="font-heading text-[20px] lg:text-[22px]">EMDR</h2>
                             <p className="text-[14px] lg:text-[15px] leading-[27px] font-light">
-                                Eye Movement Desensitization and Reprocessing (EMDR) is a powerful therapeutic technique that helps process and heal trauma by reworking how painful memories are stored in your brain. This allows you to find relief and move toward lasting healing.
+                                EMDR is an evidence-based approach that may help people process distressing memories and experiences. Maya can work with you to explore whether it fits your needs and therapeutic goals.
                             </p>
                             <div>
                                 <a href="" className="relative inline-block text-[12px] uppercase
@@ -164,10 +164,9 @@ const About = () => {
                             </div>
                         </div>
                         <div className="flex flex-col gap-4 lg:gap-5">
-                            <h2 className="font-heading text-[20px] lg:text-[22px]">Special Needs Parenting</h2>
+                            <h2 className="font-heading text-[20px] lg:text-[22px]">Burnout & Perfectionism</h2>
                             <p className="text-[14px] lg:text-[15px] leading-[27px] font-light">
-                                Parenting a child with special needs presents unique challenges and complex emotions. We provide compassionate support through lived experience and expertise to help you navigate this journey with tools, understanding, and self-care.
-                            </p>
+Constant pressure to achieve, get things right, or meet everyone's expectations can leave you feeling exhausted. Therapy can help you recognise these patterns and build a more sustainable balance.                            </p>
                             <div>
                                 <a href="" className="relative inline-block text-[12px] uppercase
                         after:absolute after:bottom-0 after:left-0

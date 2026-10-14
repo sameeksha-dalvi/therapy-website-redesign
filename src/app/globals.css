@@ -1,25 +1,20 @@
 @import "tailwindcss";
 
 
-:root {
-  /* Text colors */
+/* :root {
   --text-primary: #2b2b2b;
   --text-secondary: #424242;
   --text-light: #ffffff;
 
-  /* Brand colors */
   --primary: #86b3b3;
   --secondary: #e3d9ca;
 
-  /* Background colors */
   --background: #f6f4ee;
   --background-white: #ffffff;
   --background-dark: #2b2b2b;
 
-  /* Border colors */
   --border: #515151;
 
-  /* Transparent colors */
   --white-10: #ffffff1a;
   --white-12: #ffffff1c;
   --white-9: #ffffff17;
@@ -29,7 +24,41 @@
   --beige-18: #e3d9ca2e;
   --beige-50: #c5aa87ae;
   --dark-50: #2b2b2b80;
+} */
+
+
+:root {
+  /* Text colors */
+  --text-primary: #654A46;
+  --text-secondary: #80645E;
+  --text-light: #FFFFFF;
+
+  /* Brand colors */
+  --primary: #da5b47;
+  --secondary: #654A46;
+  --accent: #A66D5C;
+
+  /* Background colors */
+  --background: #FBF6F1;
+  --background-white: #FFFFFF;
+  --background-dark: #654A46;
+
+  /* Border colors */
+  --border: #D8BDB4;
+
+  /* Transparent colors */
+  --white-10: #FFFFFF1A;
+  --white-12: #FFFFFF1F;
+  --white-9: #FFFFFF17;
+
+  --background-overlay: #FBF6F154;
+  --beige-7: #EAD7D012;
+  --beige-14: #EAD7D024;
+  --beige-18: #EAD7D02E;
+  --beige-50: #EAD7D080;
+  --dark-50: #654A4680;
 }
+
 
 @theme inline {
   --color-primary: var(--primary);

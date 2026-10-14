@@ -7,28 +7,29 @@ const Hero = () => {
 
                 <div className="order-2 lg:order-1 w-full self-end">
                     <Image
-                        src="/images/hero-image-1.png"
-                        alt="Family therapy"
+                        src="/images/hero-new-1.jpg"
+                        alt="client and therapist photo"
                         width={500}
                         height={600}
+                        loading="eager"
                         className="w-full aspect-square lg:aspect-auto object-cover"
                     />
                 </div>
                 <div className="order-1 lg:order-2 col-span-2 lg:col-span-1 flex flex-col justify-between px-8 lg:px-[45px]">
                     <p className="text-[12px] md:text-[15px] tracking-[1.8px] font-normal leading-[24px] lg:leading-[27px] mb-10 lg:mb-[80px]">
-                        ONLINE & IN-PERSON COUNSELING IN NEWBURY PARK & ACROSS CA
+                        IN-PERSON THERAPY IN SANTA MONICA & ONLINE ACROSS CA
                     </p>
 
                     <div>
                         <h1 className="font-heading text-[36px] md:text-[42px] lg:text-[50px] font-[100] tracking-[-0.4px] leading-[46px] md:leading-[56px] lg:leading-[70px]">
-                            Rebuild your foundation on solid ground and finally begin to{" "}
+                            You don't have to carry it all on your own. Find your way back to{" "}
                             <strong className="font-handwriting text-primary text-[58px] md:text-[68px] lg:text-[80px]">
-                                thrive
+                                yourself
                             </strong>.
                         </h1>
 
                         <p className="text-[14px] lg:text-[15px] leading-[27px] mt-5">
-                            Specialized therapy for adults, couples, teens, and children to reflect, heal, and grow.
+                            A collaborative approach to healing from trauma, managing anxiety, and building a more sustainable relationship with yourself.
                         </p>
                     </div>
 
@@ -43,8 +44,8 @@ const Hero = () => {
                 </div>
                 <div className="order-3 lg:order-3 w-full flex items-end justify-end">
                     <Image
-                        src="/images/hero-image-2.png"
-                        alt="Child therapy"
+                        src="/images/hero-redesign-3.png"
+                        alt="therapy room"
                         width={250}
                         height={300}
                         className="w-[70%] aspect-[4/8] lg:w-full lg:aspect-[2/3] object-cover opacity-70"
@@ -59,39 +60,39 @@ const Hero = () => {
                 <div className="w-full lg:w-[60%] lg:pl-20">
 
                     <h1 className="font-heading text-[28px] leading-[36px] lg:text-[35px] lg:leading-normal mb-8 lg:mb-10">
-                        You’re holding onto hope that life can be better than it is right now.
+                        You don't have to keep pushing through when everything feels like too much.
                     </h1>
 
                     <div className="flex flex-col lg:flex-row gap-8 lg:gap-10">
 
                         <div className="flex-1 min-w-0">
                             <h2 className="text-[15px] mb-2 tracking-[1.5px] font-normal leading-[25px] uppercase">
-                                At Conejo Valley Family Counseling we want to make that hope a reality.
+                                At Maya Reynolds Therapy, we believe understanding yourself is the beginning of meaningful change.
                             </h2>
 
                             <p className="text-[14px] lg:text-[15px] font-light leading-[27px]">
-                                Whether you're an adult seeking personal growth, looking to work through your trauma, a couple working on your relationship, or a parent looking for support for your child, we provide a compassionate and safe space to help you navigate all of life’s ups and downs.
+                               Whether you're struggling with anxiety, working through past experiences, or feeling exhausted by the pressure to keep everything together, therapy offers a space to slow down, feel understood, and explore what you need to move forward.
                             </p>
                         </div>
                         <div className="w-full lg:hidden">
                             <Image
-                                src="/images/hero-image-3.png"
-                                alt="Family therapy"
+                                src="/images/hero-dr.png"
+                                alt="Dr. Maya Reynold Photo"
                                 width={500}
                                 height={600}
-                                className="w-full aspect-[16/9] object-cover"
+                                className="w-full aspect-[16/9] object-cover  object-[center_25%]"
                             />
                         </div>
                         <p className="flex-1 min-w-0 text-[14px] lg:text-[15px] leading-[27px] font-light">
-                            First and foremost, we believe what you’re going through is real, valid, and worthy of support. Our team offers clients in the Newbury Park area and across CA an environment to discover a new life and a deeper sense of self in the midst of their struggles. As we tap into the power of connection and understanding, you can find your footing again and take a transformative path forward.
+                            What you're experiencing deserves care, not judgment. Dr. Maya Reynolds takes a warm, collaborative approach that combines evidence-based methods with room for reflection and deeper understanding. Together, you can work toward feeling more grounded, building emotional resilience, and creating a healthier relationship with yourself and the life you're living.
                         </p>
 
                     </div>
                 </div>
                 <div className="hidden lg:block w-[30%]">
                     <Image
-                        src="/images/hero-image-3.png"
-                        alt="Family therapy"
+                        src="/images/hero-dr.png"
+                        alt="Dr. Maya Reynold Photo"
                         width={500}
                         height={600}
                         className="w-full h-auto"
