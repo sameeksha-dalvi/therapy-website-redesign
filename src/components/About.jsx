@@ -92,7 +92,7 @@ const About = () => {
                         after:h-[0.5px] after:w-full after:bg-current
                         after:origin-left after:scale-x-100
                         after:transition-transform after:duration-800
-                        hover:after:scale-x-0">Meet Dr. Maya Reynolds</a></div>
+                        hover:after:scale-x-0">Learn More About it</a></div>
                     </div>
                     <div className="hidden lg:block mt-30 w-[30%]">
                         <Image src="/images/about-redesign-4.jpeg" alt="two chairs in a welcoming therapy office"
