@@ -67,11 +67,15 @@ const Hero = () => {
 
                         <div className="flex-1 min-w-0">
                             <h2 className="text-[15px] mb-2 tracking-[1.5px] font-normal leading-[25px] uppercase">
-                                At Maya Reynolds Therapy, we believe understanding yourself is the beginning of meaningful change.
+                                Meet Dr. Maya Reynolds
                             </h2>
 
                             <p className="text-[14px] lg:text-[15px] font-light leading-[27px]">
-                               Whether you're struggling with anxiety, working through past experiences, or feeling exhausted by the pressure to keep everything together, therapy offers a space to slow down, feel understood, and explore what you need to move forward.
+                                Dr. Maya believes therapy works best when you feel
+                                respected, understood, and actively involved in the
+                                process. She creates a space where you can explore
+                                your experiences openly and work toward changes that
+                                feel meaningful to you.
                             </p>
                         </div>
                         <div className="w-full lg:hidden">
@@ -84,12 +88,14 @@ const Hero = () => {
                             />
                         </div>
                         <p className="flex-1 min-w-0 text-[14px] lg:text-[15px] leading-[27px] font-light">
-                            What you're experiencing deserves care, not judgment. Dr. Maya Reynolds takes a warm, collaborative approach that combines evidence-based methods with room for reflection and deeper understanding. Together, you can work toward feeling more grounded, building emotional resilience, and creating a healthier relationship with yourself and the life you're living.
+                            Beyond easing symptoms, her goal is to help you develop
+                            deeper self-understanding, build resilience, and create
+                            a stronger relationship with yourself over time.
                         </p>
 
                     </div>
                 </div>
-                <div className="hidden lg:block w-[30%]">
+                <div className="hidden lg:block w-[25%]">
                     <Image
                         src="/images/hero-dr.png"
                         alt="Dr. Maya Reynolds"

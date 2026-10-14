@@ -70,7 +70,7 @@ const About = () => {
                 <div className="bg-[var(--beige-50)] text-text-primary flex flex-col lg:flex-row gap-8 lg:gap-20 pl-6 lg:pl-20 pr-6 lg:pr-0">
                     <div className="w-full lg:w-[70%] my-10 lg:my-30">
                         <h2 className="mb-10 lg:mb-30 uppercase text-[15px]">How we work</h2>
-                        <h1 className="font-heading text-[30px] lg:text-[35px] mb-8 lg:mb-10">Therapy that meets you where you are.</h1>
+                        <h1 className="font-heading text-[30px] lg:text-[35px] mb-8 lg:mb-10"> A thoughtful approach to meaningful change.</h1>
                         <div className="w-full mb-8 lg:hidden">
                             <Image
                                 src="/images/about-redesign-4.jpeg"
@@ -82,10 +82,19 @@ const About = () => {
                         </div>
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-10">
                             <div className="flex-1 min-w-0">
-                                <h2 className="text-[14px] lg:text-[15px] mb-2 tracking-[1.5px] font-normal leading-[25px] uppercase">We begin by understanding your story, not by making assumptions about it.</h2>
-                                <p className="text-[14px] lg:text-[15px] font-light leading-[27px]">Sessions offer an opportunity to explore recurring patterns, understand your responses, and consider what changes might help you in daily life. Dr. Maya Reynolds takes a warm, collaborative approach, making room for your experiences, your questions, and the changes you hope to make.</p>
+                                <h2 className="text-[14px] lg:text-[15px] mb-2 tracking-[1.5px] font-normal leading-[25px] uppercase">Warm, collaborative, and grounded in your needs.</h2>
+                                <p className="text-[14px] lg:text-[15px] font-light leading-[27px]">Therapy offers a structured yet flexible space to
+                                    explore your experiences, with room for reflection
+                                    and deeper understanding. Dr. Maya Reynolds works
+                                    collaboratively with you, adapting the process to
+                                    your needs and goals.</p>
                             </div>
-                            <p className="flex-1 min-w-0 text-[14px] lg:text-[15px] font-light leading-[27px]">Healing isn't always a straight line. At times, that may mean exploring difficult experiences; at others, it may mean developing practical tools to navigate anxiety, regulate emotions, and manage stress. The work moves at a pace that respects your needs, with an emphasis on building safety, insight, and lasting resilience.</p>
+                            <p className="flex-1 min-w-0 text-[14px] lg:text-[15px] font-light leading-[27px]">Drawing on evidence-based approaches such as CBT,
+                EMDR, mindfulness, and body-oriented techniques,
+                Maya helps you explore the connections between your
+                thoughts, emotions, and physical responses. Together,
+                you'll work toward greater understanding and
+                practical ways to navigate everyday challenges.</p>
                         </div>
                         <div><a href="" className="mt-15 relative inline-block text-[12px] uppercase
                         after:absolute after:bottom-0 after:left-0
@@ -166,7 +175,7 @@ const About = () => {
                         <div className="flex flex-col gap-4 lg:gap-5">
                             <h2 className="font-heading text-[20px] lg:text-[22px]">Burnout & Perfectionism</h2>
                             <p className="text-[14px] lg:text-[15px] leading-[27px] font-light">
-Constant pressure to achieve, get things right, or meet everyone's expectations can leave you feeling exhausted. Therapy can help you recognise these patterns and build a more sustainable balance.                            </p>
+                                Constant pressure to achieve, get things right, or meet everyone's expectations can leave you feeling exhausted. Therapy can help you recognise these patterns and build a more sustainable balance.                            </p>
                             <div>
                                 <a href="" className="relative inline-block text-[12px] uppercase
                         after:absolute after:bottom-0 after:left-0

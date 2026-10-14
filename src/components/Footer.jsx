@@ -52,7 +52,7 @@ const Footer = () => {
                         <li><a href="">Terms</a></li>
                         <li><a href="">Privacy Policy</a></li>
                         <li><a href="">Disclaimer</a></li>
-                        <li>Website by Grow My Therapist</li>
+                        <li>Website by Grow My Therapy</li>
                     </ul>
                 </div>
             </div>
