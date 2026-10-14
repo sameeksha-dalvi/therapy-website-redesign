@@ -67,7 +67,7 @@ const About = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="bg-[var(--beige-50)] flex flex-col lg:flex-row gap-8 lg:gap-20 pl-6 lg:pl-20 pr-6 lg:pr-0">
+                <div className="bg-[var(--beige-50)] text-secondary flex flex-col lg:flex-row gap-8 lg:gap-20 pl-6 lg:pl-20 pr-6 lg:pr-0">
                     <div className="w-full lg:w-[70%] my-10 lg:my-30">
                         <h2 className="mb-10 lg:mb-30 uppercase text-[15px]">How we work</h2>
                         <h1 className="font-heading text-[30px] lg:text-[35px] mb-8 lg:mb-10">Therapy that meets you where you are.</h1>
@@ -77,7 +77,7 @@ const About = () => {
                                 alt="happy girls"
                                 width={500}
                                 height={600}
-                                className="w-full aspect-[16/9] object-cover object-[center_60%]"
+                                className="w-full aspect-[16/9] object-cover object-[center_60%] opacity-80"
                             />
                         </div>
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-10">
@@ -92,13 +92,13 @@ const About = () => {
                         after:h-[0.5px] after:w-full after:bg-current
                         after:origin-left after:scale-x-100
                         after:transition-transform after:duration-800
-                        hover:after:scale-x-0">Learn more about us</a></div>
+                        hover:after:scale-x-0">Meet Dr. Maya Reynolds</a></div>
                     </div>
                     <div className="hidden lg:block mt-30 w-[30%]">
                         <Image src="/images/about-redesign-4.jpeg" alt="happy girls"
                             width={500}
                             height={600}
-                            className="w-full aspect-[2/3] object-cover" />
+                            className="w-full aspect-[2/3] object-cover opacity-80" />
                     </div>
                 </div>
                 <div className="flex flex-col lg:flex-row my-16 lg:my-25 items-start lg:items-end justify-between gap-8 lg:gap-15">
