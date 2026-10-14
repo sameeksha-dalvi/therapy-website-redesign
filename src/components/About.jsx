@@ -83,7 +83,7 @@ const About = () => {
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-10">
                             <div className="flex-1 min-w-0">
                                 <h2 className="text-[14px] lg:text-[15px] mb-2 tracking-[1.5px] font-normal leading-[25px] uppercase">We begin by understanding your story, not by making assumptions about it.</h2>
-                                <p className="text-[14px] lg:text-[15px] font-light leading-[27px]">Therapy is a space where you can slow down, feel heard, and explore what's been weighing on you. Dr. Maya Reynolds takes a warm, collaborative approach, making room for your experiences, your questions, and the changes you hope to make. Together, you'll work toward understanding patterns that no longer serve you and finding ways to feel more grounded in daily life.</p>
+                                <p className="text-[14px] lg:text-[15px] font-light leading-[27px]">Sessions offer an opportunity to explore recurring patterns, understand your responses, and consider what changes might help you in daily life. Dr. Maya Reynolds takes a warm, collaborative approach, making room for your experiences, your questions, and the changes you hope to make.</p>
                             </div>
                             <p className="flex-1 min-w-0 text-[14px] lg:text-[15px] font-light leading-[27px]">Healing isn't always a straight line. At times, that may mean exploring difficult experiences; at others, it may mean developing practical tools to navigate anxiety, regulate emotions, and manage stress. The work moves at a pace that respects your needs, with an emphasis on building safety, insight, and lasting resilience.</p>
                         </div>
