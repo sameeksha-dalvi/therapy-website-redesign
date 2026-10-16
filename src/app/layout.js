@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${muli.variable} ${caveat.variable} ${beaufortPro.variable}`}
+      className={`${muli.variable} ${caveat.variable} ${beaufortPro.variable} scroll-smooth`}
     >
       <body  className="min-h-full flex flex-col">{children}</body>
     </html>

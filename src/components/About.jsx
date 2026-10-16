@@ -127,7 +127,7 @@ const About = () => {
                     </div>
 
                 </div>
-                <div className="flex flex-col lg:flex-row lg:justify-between px-6 lg:pl-25 lg:pr-15 mt-16 lg:mt-50 gap-10 lg:gap-15 mb-16 lg:mb-20">
+                <div className="flex flex-col lg:flex-row lg:justify-between px-6 lg:pl-25 lg:pr-15 mt-16 lg:mt-50 gap-10 lg:gap-15 mb-16 lg:mb-20" id="specialties">
                     <h1 className="text-[28px] lg:text-[35px] font-heading leading-[1.3] lg:leading-[40px] lg:mr-10 lg:w-[25%]">Our<span className="font-handwriting text-primary text-[45px] lg:text-[55px]"> specialties </span>include…</h1>
                     <div className="flex flex-col gap-12 lg:gap-25 w-full lg:flex-1 min-w-0">
                         <div className="flex flex-col gap-4 lg:gap-5">

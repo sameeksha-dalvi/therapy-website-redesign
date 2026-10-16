@@ -6,9 +6,14 @@ import Image from "next/image";
 
 const Navbar = () => {
 
-     const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-     const links = ["About", "Specialties", "Methods", "FAQs"];
+  const links = [
+    { name: "About", href: "#about" },
+    { name: "Specialties", href: "#specialties" },
+    { name: "Methods", href: "#methods" },
+    { name: "FAQs", href: "#faqs" },
+  ];
   return (
     <nav className="relative p-4 lg:flex lg:items-center lg:justify-between">
 
@@ -27,19 +32,16 @@ const Navbar = () => {
           className="lg:hidden flex flex-col gap-1.5 p-2"
         >
           <span
-            className={`block w-6 h-0.5 bg-black transition-transform ${
-              isOpen ? "translate-y-2 rotate-45" : ""
-            }`}
+            className={`block w-6 h-0.5 bg-black transition-transform ${isOpen ? "translate-y-2 rotate-45" : ""
+              }`}
           />
           <span
-            className={`block w-6 h-0.5 bg-black transition-opacity ${
-              isOpen ? "opacity-0" : ""
-            }`}
+            className={`block w-6 h-0.5 bg-black transition-opacity ${isOpen ? "opacity-0" : ""
+              }`}
           />
           <span
-            className={`block w-6 h-0.5 bg-black transition-transform ${
-              isOpen ? "-translate-y-2 -rotate-45" : ""
-            }`}
+            className={`block w-6 h-0.5 bg-black transition-transform ${isOpen ? "-translate-y-2 -rotate-45" : ""
+              }`}
           />
         </button>
       </div>
@@ -47,9 +49,12 @@ const Navbar = () => {
       <div className="hidden lg:flex items-center gap-7 uppercase text-text-primary text-[12px] tracking-[1.35px]">
         <ul className="flex items-center gap-7">
           {links.map((link) => (
-            <li key={link}>
-              <a href="#" className="">
-                {link}
+            <li key={link.name}>
+              <a
+                href={link.href}
+                className="transition-colors duration-300 hover:text-background-dark"
+              >
+                {link.name}
               </a>
             </li>
           ))}
@@ -64,13 +69,13 @@ const Navbar = () => {
         <div className="absolute top-full left-0 z-50 w-full bg-background shadow-md lg:hidden">
           <ul className="flex flex-col items-center gap-6 py-6 uppercase text-text-primary text-[12px] tracking-[1.35px]">
             {links.map((link) => (
-              <li key={link}>
+              <li key={link.name}>
                 <a
-                  href="#"
+                  href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className=""
+                  className="transition-colors duration-300 hover:text-background-dark"
                 >
-                  {link}
+                  {link.name}
                 </a>
               </li>
             ))}

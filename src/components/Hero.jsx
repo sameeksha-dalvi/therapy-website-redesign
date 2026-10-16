@@ -51,9 +51,9 @@ const Hero = () => {
             </div>
 
 
-            <div className="flex flex-col lg:flex-row justify-between items-center my-16 lg:my-35 px-6 lg:px-0 gap-8 lg:gap-0 text-text-primary">
+            <div className="flex flex-col lg:flex-row justify-between items-center my-16 lg:my-35 px-6 lg:px-0 gap-8 lg:gap-0 text-text-primary" id="about">
 
-                <div className="w-full lg:w-[60%] lg:pl-20">
+                <div className="w-full lg:w-[60%] lg:pl-20" >
 
                     <h1 className="font-heading text-[28px] leading-[36px] lg:text-[35px] lg:leading-normal mb-8 lg:mb-10">
                         You don't have to keep pushing through when everything feels like too much.
