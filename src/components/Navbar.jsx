@@ -60,7 +60,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <button className="uppercase rounded-full border px-6 py-3 hover:bg-background-dark hover:text-background">
+        <button className="uppercase rounded-full border px-6 py-3 hover:bg-background-dark hover:text-background active:bg-background-dark active:text-background transition-colors duration-300">
           Contact
         </button>
       </div>

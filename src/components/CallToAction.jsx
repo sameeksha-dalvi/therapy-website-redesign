@@ -21,7 +21,7 @@ const CallToAction = () => {
                         Reaching out for therapy can feel like a big step. You may have spent a long time managing anxiety, carrying the weight of past experiences, or pushing yourself to keep going. Therapy offers a space to slow down, feel understood, and begin finding a way forward that feels right for you.                </p>
                     <p className="text-[14px] lg:text-[15px] leading-[27px] font-light">
                         Whenever you're ready, take the first step toward meaningful change.</p>
-                    <button className="text-[14px] lg:text-[15px] uppercase rounded-full border px-6 py-3 hover:bg-background-dark hover:text-background w-[70%] lg:w-[50%]">CONNECT WITH DR. MAYA</button>
+                    <button className="text-[14px] lg:text-[15px] uppercase rounded-full border px-6 py-3 hover:bg-background-dark hover:text-background w-[70%] lg:w-[50%] active:bg-background-dark active:text-background transition-colors duration-300">CONNECT WITH DR. MAYA</button>
                 </div>
                 <div className="w-[80%] lg:w-[40%] self-end lg:self-auto opacity-85">
                     <Image src="/images/office1.jpeg"
