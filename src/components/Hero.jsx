@@ -1,4 +1,5 @@
 import Image from "next/image";
+import HoverUnderlineLink from './HoverUnderlineLink'
 
 const Hero = () => {
     return (
@@ -34,12 +35,7 @@ const Hero = () => {
                     </div>
 
                     <div className="mt-8 lg:mt-0">
-                        <a
-                            href=""
-                            className="relative inline-block text-[12px] uppercase after:absolute after:bottom-0 after:left-0 after:h-[0.5px] after:w-full after:bg-current after:origin-left after:scale-x-100 after:transition-transform after:duration-700 hover:after:scale-x-0"
-                        >
-                            Book an Appointment
-                        </a>
+                        <HoverUnderlineLink>Book An Appointment</HoverUnderlineLink>
                     </div>
                 </div>
                 <div className="order-3 lg:order-3 w-full flex items-end justify-end">

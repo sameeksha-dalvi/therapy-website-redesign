@@ -1,4 +1,5 @@
 import Image from "next/image"
+import HoverUnderlineLink from './HoverUnderlineLink'
 
 const About = () => {
     return (
@@ -90,18 +91,15 @@ const About = () => {
                                     your needs and goals.</p>
                             </div>
                             <p className="flex-1 min-w-0 text-[14px] lg:text-[15px] font-light leading-[27px]">Drawing on evidence-based approaches such as CBT,
-                EMDR, mindfulness, and body-oriented techniques,
-                Maya helps you explore the connections between your
-                thoughts, emotions, and physical responses. Together,
-                you'll work toward greater understanding and
-                practical ways to navigate everyday challenges.</p>
+                                EMDR, mindfulness, and body-oriented techniques,
+                                Maya helps you explore the connections between your
+                                thoughts, emotions, and physical responses. Together,
+                                you'll work toward greater understanding and
+                                practical ways to navigate everyday challenges.</p>
                         </div>
-                        <div><a href="" className="mt-15 relative inline-block text-[12px] uppercase
-                        after:absolute after:bottom-0 after:left-0
-                        after:h-[0.5px] after:w-full after:bg-current
-                        after:origin-left after:scale-x-100
-                        after:transition-transform after:duration-800
-                        hover:after:scale-x-0">Learn More About it</a></div>
+                        <div className="mt-15">
+                            <HoverUnderlineLink>Learn More About it</HoverUnderlineLink>
+                        </div>
                     </div>
                     <div className="hidden lg:block mt-30 w-[30%]">
                         <Image src="/images/about-redesign-4.jpeg" alt="two chairs in a welcoming therapy office"
@@ -136,24 +134,14 @@ const About = () => {
                             <h2 className="font-heading text-[20px] lg:text-[22px]">Trauma & Healing</h2>
                             <p className="text-[14px] lg:text-[15px] leading-[27px] font-light">Explore how past experiences may still affect your sense of safety, relationships, and daily life. Therapy offers a supportive space to process these experiences at a pace that feels manageable.</p>
                             <div>
-                                <a href="" className="relative inline-block text-[12px] uppercase
-                        after:absolute after:bottom-0 after:left-0
-                        after:h-[0.5px] after:w-full after:bg-current
-                        after:origin-left after:scale-x-100
-                        after:transition-transform after:duration-800
-                        hover:after:scale-x-0">Learn more</a>
+                                <HoverUnderlineLink>Learn more</HoverUnderlineLink>
                             </div>
                         </div>
                         <div className="flex flex-col gap-4 lg:gap-5">
                             <h2 className="font-heading text-[20px] lg:text-[22px]">Anxiety & Panic</h2>
                             <p className="text-[14px] lg:text-[15px] leading-[27px] font-light">When worry, racing thoughts, or physical tension make it difficult to feel at ease, therapy can help you understand your patterns and develop practical ways to navigate anxiety.</p>
                             <div>
-                                <a href="" className="relative inline-block text-[12px] uppercase
-                        after:absolute after:bottom-0 after:left-0
-                        after:h-[0.5px] after:w-full after:bg-current
-                        after:origin-left after:scale-x-100
-                        after:transition-transform after:duration-800
-                        hover:after:scale-x-0">Learn more</a>
+                                <HoverUnderlineLink>Learn more</HoverUnderlineLink>
                             </div>
                         </div>
                     </div>
@@ -164,12 +152,7 @@ const About = () => {
                                 EMDR is an evidence-based approach that may help people process distressing memories and experiences. Maya can work with you to explore whether it fits your needs and therapeutic goals.
                             </p>
                             <div>
-                                <a href="" className="relative inline-block text-[12px] uppercase
-                        after:absolute after:bottom-0 after:left-0
-                        after:h-[0.5px] after:w-full after:bg-current
-                        after:origin-left after:scale-x-100
-                        after:transition-transform after:duration-800
-                        hover:after:scale-x-0">Learn more</a>
+                                <HoverUnderlineLink>Learn more</HoverUnderlineLink>
                             </div>
                         </div>
                         <div className="flex flex-col gap-4 lg:gap-5">
@@ -177,12 +160,7 @@ const About = () => {
                             <p className="text-[14px] lg:text-[15px] leading-[27px] font-light">
                                 Constant pressure to achieve, get things right, or meet everyone's expectations can leave you feeling exhausted. Therapy can help you recognise these patterns and build a more sustainable balance.                            </p>
                             <div>
-                                <a href="" className="relative inline-block text-[12px] uppercase
-                        after:absolute after:bottom-0 after:left-0
-                        after:h-[0.5px] after:w-full after:bg-current
-                        after:origin-left after:scale-x-100
-                        after:transition-transform after:duration-800
-                        hover:after:scale-x-0">Learn more</a>
+                                <HoverUnderlineLink>Learn more</HoverUnderlineLink>
                             </div>
                         </div>
                     </div>
