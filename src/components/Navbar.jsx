@@ -73,7 +73,7 @@ const Navbar = () => {
                 <a
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="transition-colors duration-300 hover:text-background-dark"
+                  className="transition-colors duration-300 hover:text-background-dark active:bg-background-dark active:text-background transition-colors duration-300"
                 >
                   {link.name}
                 </a>
