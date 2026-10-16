@@ -1,5 +1,5 @@
-Dr. Maya Reynolds — Therapy Website
+Therapy Website Homepage
 
-A responsive therapist website built with Next.js and Tailwind CSS as part of a Grow My Therapy practical assignment.
+A responsive therapist website built with Next.js and Tailwind CSS.
 
 Live Demo: https://therapy-website-redesign-six.vercel.app/
